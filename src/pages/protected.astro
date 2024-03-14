@@ -1,0 +1,9 @@
+---
+import Layout from "~/layouts/Layout.astro";
+
+const { session } = Astro.locals;
+---
+
+<Layout title="Protected">
+  <h2>{session ? "Secret stuff..." : "Unauthorized"}</h2>
+</Layout>

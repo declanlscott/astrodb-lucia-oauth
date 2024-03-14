@@ -1,0 +1,27 @@
+{
+  "name": "astrodb-lucia-oauth",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build --remote",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.9",
+    "@astrojs/db": "^0.8.2",
+    "@astrojs/vercel": "^7.3.6",
+    "@lucia-auth/adapter-drizzle": "^1.0.3",
+    "arctic": "^1.2.1",
+    "astro": "^4.5.3",
+    "lucia": "^3.1.1",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0"
+  }
+}
