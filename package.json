@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.5.9",
-    "@astrojs/db": "^0.8.6",
-    "@astrojs/netlify": "^5.1.3",
+    "@astrojs/db": "^0.8.8",
+    "@astrojs/netlify": "^5.2.0",
     "arctic": "^1.2.1",
-    "astro": "^4.5.5",
+    "astro": "^4.5.9",
     "lucia": "^3.1.1",
-    "lucia-adapter-astrodb": "^0.0.3",
-    "typescript": "^5.4.2"
+    "lucia-adapter-astrodb": "^0.0.5",
+    "typescript": "^5.4.3"
   },
   "devDependencies": {
     "prettier": "^3.2.5",

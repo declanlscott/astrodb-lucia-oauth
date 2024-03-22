@@ -7,4 +7,9 @@ export default defineConfig({
   output: "server",
   adapter: netlify(),
   integrations: [db()],
+  vite: {
+    optimizeDeps: {
+      exclude: ["astro:db"],
+    },
+  },
 });
